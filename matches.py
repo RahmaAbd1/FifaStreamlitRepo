@@ -7,7 +7,6 @@ matches = pd.read_csv('matches.csv')
 tnm = pd.read_csv('tournaments.csv')
 play = pd.read_csv('players.csv')
 
-goals.csv
 
 
 stage_categories = ['group stage','second group stage', 'round of 16',
