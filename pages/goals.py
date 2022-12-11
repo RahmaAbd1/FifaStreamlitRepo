@@ -129,7 +129,7 @@ goalnum = pd.DataFrame.from_records(counts.most_common(), columns=['full_name','
 goalnumdf = goalnum.nlargest(10,'counts')
 
 with col5:
-    st.write(""" Since the first tournament in 1930, 1,298 footballers have scored goals in the World Cup final tournaments,[3] of whom just 98 have scored five or more.
+    st.write(""" Since the first tournament in 1930, 1,298 footballers have scored goals in the World Cup final tournaments, of whom just 98 have scored five or more.
     - Miroslav Klose (Germany) played in 24 matches in 4 tournaments, and scored 16 goals total.
     - Ronaldo (Brazil) played in 19 matches in 3 tournaments, and scored 16 goals total.
     - Gerd Müller (Germany) played in 13 matches in 2 tournaments, and scored 14 goals total. """)
