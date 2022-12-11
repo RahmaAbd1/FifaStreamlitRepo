@@ -3,9 +3,11 @@ import pandas as pd
 import plotly.express as px
 import numpy as np 
 
-matches = pd.read_csv('/Users/rahmaabdullahi/Documents/Streamlit/streamlit_env/5122_proj/matches.csv')
-tnm = pd.read_csv("/Users/rahmaabdullahi/Documents/Streamlit/streamlit_env/5122_proj/tournaments.csv")
-play = pd.read_csv('/Users/rahmaabdullahi/Documents/Streamlit/streamlit_env/5122_proj/players.csv')
+matches = pd.read_csv('matches.csv')
+tnm = pd.read_csv('tournaments.csv')
+play = pd.read_csv('players.csv')
+
+goals.csv
 
 
 stage_categories = ['group stage','second group stage', 'round of 16',
