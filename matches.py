@@ -35,7 +35,7 @@ col1, col2 = st.columns((1,2))
 with col1:
     st.markdown(
         """
-        Since 1930, there has been 21 completed tournaments (not including the current Qatar 2022 World Cup.) Over these years, there have been certain countries dominating the tournaments. 
+        Since 1930, there has been 21 completed tournaments (not including the Qatar 2022 World Cup.) Over these years, there have been certain countries dominating the tournaments. 
         - Brazil has won the world cup five times in 1958, 1962, 1970, 1994, and 2002.
         - Italy has won the world cup four times in 1934, 1938, 1982, and 2006.
         - Germany initially participated in the world cup only as West Germany, with their three victories occuring in 1954, 1974, and 1990. But, after the German reunification in 1990, West Germany was no more, and afterwards participated in the world cup as Germany. Then, in Germany won the world cup in 2014, making this unified Germany's first world cup win. 
