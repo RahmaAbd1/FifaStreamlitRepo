@@ -148,6 +148,7 @@ with col6:
         #markers=True,
         #width=800, 
         height=500,
+        labels={"counts":"# of Goals", "full_name":"Name of Player"},
         text = "counts",
         hover_name="full_name",
         hover_data=['counts']
