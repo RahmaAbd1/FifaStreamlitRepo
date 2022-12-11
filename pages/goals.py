@@ -10,9 +10,11 @@ st.set_page_config(layout="wide")
 
 goals = pd.read_csv("goals.csv")
 
-st.markdown("# Goals 🥅 ")
+st.markdown("# Goals ⚽ ")
 st.write(" Goals can sometimes be ambigious. To better determine what is or is not considered a goal, FIFA follows the [Laws of the Game](https://www.theifab.com/laws-of-the-game-documents/?language=all&year=2022%2F23), the rules of football that are annualy authorized by the International Football Association Board (IFAB). The IFAB states that goal is scored when the entire ball passes the goal line between the goalpost, and into the goalpost at the end of the pitch.")
 st.write("***")
+
+st.sidebar.markdown("# Goals ⚽")
 
 
 
