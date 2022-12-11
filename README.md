@@ -11,4 +11,4 @@ The FIFA streamlit application was created by using data extracted from a compre
 
 # Data Source
 All of the data used was extracted from the [Fjelstul World Cup Database](https://github.com/jfjelstul/worldcup), created by Joshua C. Fjelstul, Ph.D.
-The datasets [goals](https://github.com/jfjelstul/worldcup/blob/master/data-csv/goals.csv), [matches](https://github.com/jfjelstul/worldcup/blob/master/data-csv/matches.csv], players & tournaments were utilized. 
+The datasets [goals](https://github.com/jfjelstul/worldcup/blob/master/data-csv/goals.csv), [matches](https://github.com/jfjelstul/worldcup/blob/master/data-csv/matches.csv), [players](https://github.com/jfjelstul/worldcup/blob/master/data-csv/players.csv) & [tournaments](https://github.com/jfjelstul/worldcup/blob/master/data-csv/tournaments.csv) were utilized. 
