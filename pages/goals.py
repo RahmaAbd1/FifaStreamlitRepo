@@ -48,7 +48,7 @@ with col1:
     three = px.histogram(
         df_list2,
         x='match_date',
-        title="Country Stages",
+        title="Analysis of Goals over Time",
         color="team_name",
         log_x=False,
         log_y=False,
@@ -56,7 +56,7 @@ with col1:
         #markers=True,
         #width=800, 
         height=500,
-        labels= {"count": "# of Goals", "match_date" : "Year"},
+        labels={"count":"# of Goals", "match_date":"Year"},
         hover_name="team_name",
         hover_data=['team_name'])
     three.update_layout(barmode='group')
