@@ -126,7 +126,7 @@ matches['match_date'] = matches['match_date'].dt.year
 
 matches2 = matches.groupby(['match_date', 'result'])['match_id'].count().reset_index(name='counts')
 
-fig = px.line(matches2, x="match_date", y="counts", width = 900, height= 600, color='result')
+fig = px.line(matches2, x="match_date", y="counts", width = 900, height= 600, labels= {"counts" : "# of Goals"}, color='result')
 st.plotly_chart(fig)
 
 st.markdown('***')
