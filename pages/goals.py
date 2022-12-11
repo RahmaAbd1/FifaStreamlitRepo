@@ -100,7 +100,7 @@ with col4:
         height=600,
         text = "goal_id",
         labels={
-            "match_period": "Match Period", "goal_id": "Number of Goals"
+            "match_period": "Match Period", "goal_id": "# of Goals"
                },
      hover_name="match_period",
      hover_data=['match_period', "goal_id"]
