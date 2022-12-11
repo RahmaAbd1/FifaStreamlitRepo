@@ -56,7 +56,7 @@ with col1:
         #markers=True,
         #width=800, 
         height=500,
-        labels = {"count" : "# of Goals", "match_date" : "Year"},
+        labels= {"count" : "# of Goals", "match_date" : "Year"},
         hover_name="team_name",
         hover_data=['team_name'])
     three.update_layout(barmode='group')
