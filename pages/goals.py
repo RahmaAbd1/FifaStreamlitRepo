@@ -56,13 +56,14 @@ with col1:
         #markers=True,
         #width=800, 
         height=500,
+        labels = {"count" : "# of Goals", "match_date" : "Year"},
         hover_name="team_name",
         hover_data=['team_name'])
     three.update_layout(barmode='group')
     st.plotly_chart(three)
 
 with col2:
-    #Plotting Scatterplot
+    #Plotting LineChart
     fig = px.line(df4, x="Year", y="key_id", title = "Number of Goals for the Top 3 Countries over the Years", height = 500, width=800,
     labels={
       "key_id": "Number of Goals", "team_name": "Team/Country",
