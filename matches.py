@@ -162,7 +162,7 @@ with col6:
         height=500,
         labels={
         "count_tournaments": "# of Tournaments Attended"
-              }
+              },
         text = "full_name",
         hover_name="full_name",
         hover_data=['player_id']
